@@ -1,0 +1,344 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'xml2json' ]
+2 info using npm@2.14.7
+3 info using node@v4.2.1
+4 verbose install initial load of C:\Users\Ho Yuan Yi\Documents\Workbench\ionic\JustAProject\package.json
+5 warn package.json justaproject@1.1.1 No repository field.
+6 warn package.json justaproject@1.1.1 No README data
+7 warn package.json justaproject@1.1.1 No license field.
+8 verbose installManyTop reading scoped package data from C:\Users\Ho Yuan Yi\Documents\Workbench\ionic\JustAProject\node_modules\bower\package.json
+9 verbose installManyTop reading scoped package data from C:\Users\Ho Yuan Yi\Documents\Workbench\ionic\JustAProject\node_modules\gulp\package.json
+10 verbose installManyTop reading scoped package data from C:\Users\Ho Yuan Yi\Documents\Workbench\ionic\JustAProject\node_modules\gulp-concat\package.json
+11 verbose installManyTop reading scoped package data from C:\Users\Ho Yuan Yi\Documents\Workbench\ionic\JustAProject\node_modules\gulp-minify-css\package.json
+12 verbose installManyTop reading scoped package data from C:\Users\Ho Yuan Yi\Documents\Workbench\ionic\JustAProject\node_modules\gulp-rename\package.json
+13 verbose installManyTop reading scoped package data from C:\Users\Ho Yuan Yi\Documents\Workbench\ionic\JustAProject\node_modules\gulp-sass\package.json
+14 verbose installManyTop reading scoped package data from C:\Users\Ho Yuan Yi\Documents\Workbench\ionic\JustAProject\node_modules\gulp-util\package.json
+15 verbose installManyTop reading scoped package data from C:\Users\Ho Yuan Yi\Documents\Workbench\ionic\JustAProject\node_modules\ionic\package.json
+16 verbose installManyTop reading scoped package data from C:\Users\Ho Yuan Yi\Documents\Workbench\ionic\JustAProject\node_modules\shelljs\package.json
+17 info package.json shelljs@0.3.0 license should be a valid SPDX license expression
+18 info package.json gulp-minify-css@0.3.13 No license field.
+19 info package.json gulp-util@2.2.20 No license field.
+20 info package.json gulp-rename@1.2.2 No license field.
+21 verbose readDependencies loading dependencies from C:\Users\Ho Yuan Yi\Documents\Workbench\ionic\JustAProject\package.json
+22 silly cache add args [ 'xml2json', null ]
+23 verbose cache add spec xml2json
+24 silly cache add parsed spec Result {
+24 silly cache add   raw: 'xml2json',
+24 silly cache add   scope: null,
+24 silly cache add   name: 'xml2json',
+24 silly cache add   rawSpec: '',
+24 silly cache add   spec: '*',
+24 silly cache add   type: 'range' }
+25 silly addNamed xml2json@*
+26 verbose addNamed "*" is a valid semver range for xml2json
+27 silly addNameRange { name: 'xml2json', range: '*', hasData: false }
+28 silly mapToRegistry name xml2json
+29 silly mapToRegistry using default registry
+30 silly mapToRegistry registry https://registry.npmjs.org/
+31 silly mapToRegistry uri https://registry.npmjs.org/xml2json
+32 verbose addNameRange registry:https://registry.npmjs.org/xml2json not in flight; fetching
+33 verbose request uri https://registry.npmjs.org/xml2json
+34 verbose request no auth needed
+35 info attempt registry request try #1 at 3:13:51 PM
+36 verbose request id 24b973dad76e4811
+37 http request GET https://registry.npmjs.org/xml2json
+38 http 200 https://registry.npmjs.org/xml2json
+39 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+39 verbose headers   etag: '"2YZ3SHQ4YTBX2SPJ8PK2M91KY"',
+39 verbose headers   'content-type': 'application/json',
+39 verbose headers   'cache-control': 'max-age=60',
+39 verbose headers   'content-length': '31918',
+39 verbose headers   'accept-ranges': 'bytes',
+39 verbose headers   date: 'Mon, 09 Nov 2015 07:13:52 GMT',
+39 verbose headers   via: '1.1 varnish',
+39 verbose headers   age: '0',
+39 verbose headers   connection: 'keep-alive',
+39 verbose headers   'x-served-by': 'cache-sin6927-SIN',
+39 verbose headers   'x-cache': 'HIT',
+39 verbose headers   'x-cache-hits': '1',
+39 verbose headers   'x-timer': 'S1447053232.125624,VS0,VE202',
+39 verbose headers   vary: 'Accept' }
+40 silly get cb [ 200,
+40 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+40 silly get     etag: '"2YZ3SHQ4YTBX2SPJ8PK2M91KY"',
+40 silly get     'content-type': 'application/json',
+40 silly get     'cache-control': 'max-age=60',
+40 silly get     'content-length': '31918',
+40 silly get     'accept-ranges': 'bytes',
+40 silly get     date: 'Mon, 09 Nov 2015 07:13:52 GMT',
+40 silly get     via: '1.1 varnish',
+40 silly get     age: '0',
+40 silly get     connection: 'keep-alive',
+40 silly get     'x-served-by': 'cache-sin6927-SIN',
+40 silly get     'x-cache': 'HIT',
+40 silly get     'x-cache-hits': '1',
+40 silly get     'x-timer': 'S1447053232.125624,VS0,VE202',
+40 silly get     vary: 'Accept' } ]
+41 verbose get saving xml2json to C:\Users\Ho Yuan Yi\AppData\Roaming\npm-cache\registry.npmjs.org\xml2json\.cache.json
+42 silly addNameRange number 2 { name: 'xml2json', range: '*', hasData: true }
+43 silly addNameRange versions [ 'xml2json',
+43 silly addNameRange   [ '0.1.0',
+43 silly addNameRange     '0.1.1',
+43 silly addNameRange     '0.2.0',
+43 silly addNameRange     '0.2.1',
+43 silly addNameRange     '0.2.2',
+43 silly addNameRange     '0.2.3',
+43 silly addNameRange     '0.2.4',
+43 silly addNameRange     '0.3.0',
+43 silly addNameRange     '0.3.1',
+43 silly addNameRange     '0.3.2',
+43 silly addNameRange     '0.4.0',
+43 silly addNameRange     '0.5.0',
+43 silly addNameRange     '0.5.1',
+43 silly addNameRange     '0.6.0',
+43 silly addNameRange     '0.6.1',
+43 silly addNameRange     '0.6.2',
+43 silly addNameRange     '0.7.0',
+43 silly addNameRange     '0.7.1',
+43 silly addNameRange     '0.8.0',
+43 silly addNameRange     '0.8.1',
+43 silly addNameRange     '0.8.2',
+43 silly addNameRange     '0.9.0' ] ]
+44 silly addNamed xml2json@0.9.0
+45 verbose addNamed "0.9.0" is a plain semver version for xml2json
+46 silly mapToRegistry name xml2json
+47 silly mapToRegistry using default registry
+48 silly mapToRegistry registry https://registry.npmjs.org/
+49 silly mapToRegistry uri https://registry.npmjs.org/xml2json
+50 verbose addRemoteTarball https://registry.npmjs.org/xml2json/-/xml2json-0.9.0.tgz not in flight; adding
+51 verbose addRemoteTarball [ 'https://registry.npmjs.org/xml2json/-/xml2json-0.9.0.tgz',
+51 verbose addRemoteTarball   'cf85a24b1ab0291a409d79bba5c5da720c01ec31' ]
+52 info retry fetch attempt 1 at 3:13:52 PM
+53 info attempt registry request try #1 at 3:13:52 PM
+54 http fetch GET https://registry.npmjs.org/xml2json/-/xml2json-0.9.0.tgz
+55 http fetch 200 https://registry.npmjs.org/xml2json/-/xml2json-0.9.0.tgz
+56 silly fetchAndShaCheck shasum cf85a24b1ab0291a409d79bba5c5da720c01ec31
+57 verbose addTmpTarball C:\Users\HOYUAN~1\AppData\Local\Temp\npm-2108-434435b3\registry.npmjs.org\xml2json\-\xml2json-0.9.0.tgz not in flight; adding
+58 verbose addTmpTarball already have metadata; skipping unpack for xml2json@0.9.0
+59 silly cache afterAdd xml2json@0.9.0
+60 verbose afterAdd C:\Users\Ho Yuan Yi\AppData\Roaming\npm-cache\xml2json\0.9.0\package\package.json not in flight; writing
+61 verbose afterAdd C:\Users\Ho Yuan Yi\AppData\Roaming\npm-cache\xml2json\0.9.0\package\package.json written
+62 silly install resolved [ { name: 'xml2json',
+62 silly install resolved     version: '0.9.0',
+62 silly install resolved     description: 'Converts xml to json and vice-versa, using node-expat.',
+62 silly install resolved     repository:
+62 silly install resolved      { type: 'git',
+62 silly install resolved        url: 'git://github.com/buglabs/node-xml2json.git' },
+62 silly install resolved     license: 'MIT',
+62 silly install resolved     main: 'index',
+62 silly install resolved     scripts: { test: 'lab -a code -v -t 93 test/test.js' },
+62 silly install resolved     dependencies: { hoek: '^2.14.0', joi: '^6.4.3', 'node-expat': '^2.3.9' },
+62 silly install resolved     bin: { xml2json: 'bin/xml2json' },
+62 silly install resolved     devDependencies: { code: '^1.4.1', lab: '5.x.x' },
+62 silly install resolved     contributors:
+62 silly install resolved      [ [Object],
+62 silly install resolved        [Object],
+62 silly install resolved        [Object],
+62 silly install resolved        [Object],
+62 silly install resolved        [Object],
+62 silly install resolved        [Object],
+62 silly install resolved        [Object],
+62 silly install resolved        [Object],
+62 silly install resolved        [Object],
+62 silly install resolved        [Object],
+62 silly install resolved        [Object],
+62 silly install resolved        [Object],
+62 silly install resolved        [Object],
+62 silly install resolved        [Object],
+62 silly install resolved        [Object],
+62 silly install resolved        [Object],
+62 silly install resolved        [Object],
+62 silly install resolved        [Object],
+62 silly install resolved        [Object],
+62 silly install resolved        [Object],
+62 silly install resolved        [Object],
+62 silly install resolved        [Object] ],
+62 silly install resolved     gitHead: '3d49d5a38d597e5aaf0a682674f7a114098d3c59',
+62 silly install resolved     bugs: { url: 'https://github.com/buglabs/node-xml2json/issues' },
+62 silly install resolved     homepage: 'https://github.com/buglabs/node-xml2json#readme',
+62 silly install resolved     _id: 'xml2json@0.9.0',
+62 silly install resolved     _shasum: 'cf85a24b1ab0291a409d79bba5c5da720c01ec31',
+62 silly install resolved     _from: 'xml2json@*',
+62 silly install resolved     _npmVersion: '2.12.1',
+62 silly install resolved     _nodeVersion: '0.12.7',
+62 silly install resolved     _npmUser: { name: 'c4milo', email: 'camilo.aguilar@gmail.com' },
+62 silly install resolved     maintainers: [ [Object], [Object] ],
+62 silly install resolved     dist:
+62 silly install resolved      { shasum: 'cf85a24b1ab0291a409d79bba5c5da720c01ec31',
+62 silly install resolved        tarball: 'http://registry.npmjs.org/xml2json/-/xml2json-0.9.0.tgz' },
+62 silly install resolved     directories: {},
+62 silly install resolved     _resolved: 'https://registry.npmjs.org/xml2json/-/xml2json-0.9.0.tgz' } ]
+63 info install xml2json@0.9.0 into C:\Users\Ho Yuan Yi\Documents\Workbench\ionic\JustAProject
+64 info installOne xml2json@0.9.0
+65 verbose installOne of xml2json to C:\Users\Ho Yuan Yi\Documents\Workbench\ionic\JustAProject not in flight; installing
+66 verbose lock using C:\Users\Ho Yuan Yi\AppData\Roaming\npm-cache\_locks\xml2json-9f010d1dc7827657.lock for C:\Users\Ho Yuan Yi\Documents\Workbench\ionic\JustAProject\node_modules\xml2json
+67 silly install write writing xml2json 0.9.0 to C:\Users\Ho Yuan Yi\Documents\Workbench\ionic\JustAProject\node_modules\xml2json
+68 verbose unbuild node_modules\xml2json
+69 silly gentlyRm C:\Users\Ho Yuan Yi\Documents\Workbench\ionic\JustAProject\node_modules\xml2json is being purged from base C:\Users\Ho Yuan Yi\Documents\Workbench\ionic\JustAProject
+70 verbose gentlyRm don't care about contents; nuking C:\Users\Ho Yuan Yi\Documents\Workbench\ionic\JustAProject\node_modules\xml2json
+71 verbose tar unpack C:\Users\Ho Yuan Yi\AppData\Roaming\npm-cache\xml2json\0.9.0\package.tgz
+72 verbose tar unpacking to C:\Users\Ho Yuan Yi\Documents\Workbench\ionic\JustAProject\node_modules\xml2json
+73 silly gentlyRm C:\Users\Ho Yuan Yi\Documents\Workbench\ionic\JustAProject\node_modules\xml2json is being purged
+74 verbose gentlyRm don't care about contents; nuking C:\Users\Ho Yuan Yi\Documents\Workbench\ionic\JustAProject\node_modules\xml2json
+75 silly gunzTarPerm modes [ '777', '666' ]
+76 silly gunzTarPerm extractEntry package.json
+77 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+78 silly gunzTarPerm extractEntry .npmignore
+79 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+80 silly gunzTarPerm extractEntry README.md
+81 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+82 silly gunzTarPerm extractEntry index.js
+83 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+84 silly gunzTarPerm extractEntry t.js
+85 silly gunzTarPerm modified mode [ 't.js', 420, 438 ]
+86 silly gunzTarPerm extractEntry bin/xml2json
+87 silly gunzTarPerm modified mode [ 'bin/xml2json', 420, 438 ]
+88 silly gunzTarPerm extractEntry AUTHORS
+89 silly gunzTarPerm modified mode [ 'AUTHORS', 420, 438 ]
+90 silly gunzTarPerm extractEntry lib/index.js
+91 silly gunzTarPerm modified mode [ 'lib/index.js', 420, 438 ]
+92 silly gunzTarPerm extractEntry lib/json2xml.js
+93 silly gunzTarPerm modified mode [ 'lib/json2xml.js', 420, 438 ]
+94 silly gunzTarPerm extractEntry lib/sanitize.js
+95 silly gunzTarPerm modified mode [ 'lib/sanitize.js', 420, 438 ]
+96 silly gunzTarPerm extractEntry lib/xml2json.js
+97 silly gunzTarPerm modified mode [ 'lib/xml2json.js', 420, 438 ]
+98 silly gunzTarPerm extractEntry .editorconfig
+99 silly gunzTarPerm modified mode [ '.editorconfig', 436, 438 ]
+100 silly gunzTarPerm extractEntry .travis.yml
+101 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+102 silly gunzTarPerm extractEntry test/.npmignore
+103 silly gunzTarPerm modified mode [ 'test/.npmignore', 420, 438 ]
+104 silly gunzTarPerm extractEntry test/coerce-overhead.js
+105 silly gunzTarPerm modified mode [ 'test/coerce-overhead.js', 420, 438 ]
+106 silly gunzTarPerm extractEntry test/test-reorder.js
+107 silly gunzTarPerm modified mode [ 'test/test-reorder.js', 420, 438 ]
+108 silly gunzTarPerm extractEntry test/test-space.js
+109 silly gunzTarPerm modified mode [ 'test/test-space.js', 420, 438 ]
+110 silly gunzTarPerm extractEntry test/test-xmlsanitize.js
+111 silly gunzTarPerm modified mode [ 'test/test-xmlsanitize.js', 420, 438 ]
+112 silly gunzTarPerm extractEntry test/test.js
+113 silly gunzTarPerm modified mode [ 'test/test.js', 420, 438 ]
+114 silly gunzTarPerm extractEntry test/fixtures/large.json
+115 silly gunzTarPerm modified mode [ 'test/fixtures/large.json', 420, 438 ]
+116 silly gunzTarPerm extractEntry test/fixtures/array-notation.json
+117 silly gunzTarPerm modified mode [ 'test/fixtures/array-notation.json', 420, 438 ]
+118 silly gunzTarPerm extractEntry test/fixtures/coerce.json
+119 silly gunzTarPerm modified mode [ 'test/fixtures/coerce.json', 420, 438 ]
+120 silly gunzTarPerm extractEntry test/fixtures/coerce.xml
+121 silly gunzTarPerm modified mode [ 'test/fixtures/coerce.xml', 420, 438 ]
+122 silly gunzTarPerm extractEntry test/fixtures/domain-reversible.json
+123 silly gunzTarPerm modified mode [ 'test/fixtures/domain-reversible.json', 420, 438 ]
+124 silly gunzTarPerm extractEntry test/fixtures/domain.json
+125 silly gunzTarPerm modified mode [ 'test/fixtures/domain.json', 420, 438 ]
+126 silly gunzTarPerm extractEntry test/fixtures/domain.xml
+127 silly gunzTarPerm modified mode [ 'test/fixtures/domain.xml', 420, 438 ]
+128 silly gunzTarPerm extractEntry test/fixtures/array-notation.xml
+129 silly gunzTarPerm modified mode [ 'test/fixtures/array-notation.xml', 420, 438 ]
+130 silly gunzTarPerm extractEntry test/fixtures/large.xml
+131 silly gunzTarPerm modified mode [ 'test/fixtures/large.xml', 420, 438 ]
+132 silly gunzTarPerm extractEntry test/fixtures/reorder.json
+133 silly gunzTarPerm modified mode [ 'test/fixtures/reorder.json', 420, 438 ]
+134 silly gunzTarPerm extractEntry test/fixtures/reorder.xml
+135 silly gunzTarPerm modified mode [ 'test/fixtures/reorder.xml', 420, 438 ]
+136 silly gunzTarPerm extractEntry test/fixtures/spacetext.json
+137 silly gunzTarPerm modified mode [ 'test/fixtures/spacetext.json', 420, 438 ]
+138 silly gunzTarPerm extractEntry test/fixtures/spacetext.xml
+139 silly gunzTarPerm modified mode [ 'test/fixtures/spacetext.xml', 420, 438 ]
+140 silly gunzTarPerm extractEntry test/fixtures/xmlsanitize.json
+141 silly gunzTarPerm modified mode [ 'test/fixtures/xmlsanitize.json', 420, 438 ]
+142 silly gunzTarPerm extractEntry test/fixtures/xmlsanitize.xml
+143 silly gunzTarPerm modified mode [ 'test/fixtures/xmlsanitize.xml', 420, 438 ]
+144 verbose write writing to C:\Users\Ho Yuan Yi\Documents\Workbench\ionic\JustAProject\node_modules\xml2json\package.json
+145 info preinstall xml2json@0.9.0
+146 verbose readDependencies loading dependencies from C:\Users\Ho Yuan Yi\Documents\Workbench\ionic\JustAProject\node_modules\xml2json\package.json
+147 silly prepareForInstallMany adding hoek@^2.14.0 from xml2json dependencies
+148 silly prepareForInstallMany adding joi@^6.4.3 from xml2json dependencies
+149 silly prepareForInstallMany adding node-expat@^2.3.9 from xml2json dependencies
+150 verbose readDependencies loading dependencies from C:\Users\Ho Yuan Yi\Documents\Workbench\ionic\JustAProject\node_modules\xml2json\package.json
+151 silly cache add args [ 'joi@^6.4.3', null ]
+152 verbose cache add spec joi@^6.4.3
+153 silly cache add parsed spec Result {
+153 silly cache add   raw: 'joi@^6.4.3',
+153 silly cache add   scope: null,
+153 silly cache add   name: 'joi',
+153 silly cache add   rawSpec: '^6.4.3',
+153 silly cache add   spec: '>=6.4.3 <7.0.0',
+153 silly cache add   type: 'range' }
+154 silly addNamed joi@>=6.4.3 <7.0.0
+155 verbose addNamed ">=6.4.3 <7.0.0" is a valid semver range for joi
+156 silly addNameRange { name: 'joi', range: '>=6.4.3 <7.0.0', hasData: false }
+157 silly mapToRegistry name joi
+158 silly mapToRegistry using default registry
+159 silly mapToRegistry registry https://registry.npmjs.org/
+160 silly mapToRegistry uri https://registry.npmjs.org/joi
+161 verbose addNameRange registry:https://registry.npmjs.org/joi not in flight; fetching
+162 silly cache add args [ 'node-expat@^2.3.9', null ]
+163 verbose cache add spec node-expat@^2.3.9
+164 silly cache add parsed spec Result {
+164 silly cache add   raw: 'node-expat@^2.3.9',
+164 silly cache add   scope: null,
+164 silly cache add   name: 'node-expat',
+164 silly cache add   rawSpec: '^2.3.9',
+164 silly cache add   spec: '>=2.3.9 <3.0.0',
+164 silly cache add   type: 'range' }
+165 silly addNamed node-expat@>=2.3.9 <3.0.0
+166 verbose addNamed ">=2.3.9 <3.0.0" is a valid semver range for node-expat
+167 silly addNameRange { name: 'node-expat', range: '>=2.3.9 <3.0.0', hasData: false }
+168 silly mapToRegistry name node-expat
+169 silly mapToRegistry using default registry
+170 silly mapToRegistry registry https://registry.npmjs.org/
+171 silly mapToRegistry uri https://registry.npmjs.org/node-expat
+172 verbose addNameRange registry:https://registry.npmjs.org/node-expat not in flight; fetching
+173 silly cache add args [ 'hoek@^2.14.0', null ]
+174 verbose cache add spec hoek@^2.14.0
+175 silly cache add parsed spec Result {
+175 silly cache add   raw: 'hoek@^2.14.0',
+175 silly cache add   scope: null,
+175 silly cache add   name: 'hoek',
+175 silly cache add   rawSpec: '^2.14.0',
+175 silly cache add   spec: '>=2.14.0 <3.0.0',
+175 silly cache add   type: 'range' }
+176 silly addNamed hoek@>=2.14.0 <3.0.0
+177 verbose addNamed ">=2.14.0 <3.0.0" is a valid semver range for hoek
+178 silly addNameRange { name: 'hoek', range: '>=2.14.0 <3.0.0', hasData: false }
+179 silly mapToRegistry name hoek
+180 silly mapToRegistry using default registry
+181 silly mapToRegistry registry https://registry.npmjs.org/
+182 silly mapToRegistry uri https://registry.npmjs.org/hoek
+183 verbose addNameRange registry:https://registry.npmjs.org/hoek not in flight; fetching
+184 verbose request uri https://registry.npmjs.org/joi
+185 verbose request no auth needed
+186 info attempt registry request try #1 at 3:13:52 PM
+187 http request GET https://registry.npmjs.org/joi
+188 verbose request uri https://registry.npmjs.org/node-expat
+189 verbose request no auth needed
+190 info attempt registry request try #1 at 3:13:52 PM
+191 http request GET https://registry.npmjs.org/node-expat
+192 verbose request uri https://registry.npmjs.org/hoek
+193 verbose request no auth needed
+194 info attempt registry request try #1 at 3:13:52 PM
+195 verbose etag "14UD7VC5N2IZ1V2HK78936JN7"
+196 http request GET https://registry.npmjs.org/hoek
+197 verbose stack Error: read ECONNRESET
+197 verbose stack     at exports._errnoException (util.js:874:11)
+197 verbose stack     at TLSWrap.onread (net.js:544:26)
+198 verbose cwd C:\Users\Ho Yuan Yi\Documents\Workbench\ionic\JustAProject
+199 error Windows_NT 10.0.10240
+200 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "xml2json"
+201 error node v4.2.1
+202 error npm  v2.14.7
+203 error code ECONNRESET
+204 error errno ECONNRESET
+205 error syscall read
+206 error network read ECONNRESET
+206 error network This is most likely not a problem with npm itself
+206 error network and is related to network connectivity.
+206 error network In most cases you are behind a proxy or have bad network settings.
+206 error network
+206 error network If you are behind a proxy, please make sure that the
+206 error network 'proxy' config is set properly.  See: 'npm help config'
+207 verbose exit [ 1, true ]

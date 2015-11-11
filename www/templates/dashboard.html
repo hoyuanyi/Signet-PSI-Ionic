@@ -1,0 +1,26 @@
+<ion-view view-title="Dashboard">
+  <ion-content class="padding">
+    <ion-refresher on-refresh="refreshData()" spinner="ripple" pulling-icon="ion-ios-refresh-empty">
+  </ion-refresher>
+    <div class="list card">
+      <div class="item item-divider item-icon-right" ng-click="refreshData()">PSI Updates - {{psiReading.hour}}
+      <i class="icon ion-ios-paper-outline"></i>
+    </div>
+      <div class="item item-body">
+        <div>
+          3-hr PSI : <b class="customFloat">{{psiReading.reading}}</b><br>
+          Air Quality: <b class="customFloat" style="color:{{psiReading.color}}">{{psiReading.quality}}</b><br>
+          Last Updated: <b class="customFloat">{{psiReading.dateTime}}</b>
+        </div>
+      </div>
+    </div>
+    <div class="list card">
+      <div class="item item-divider">Health</div>
+      <div class="item item-body">
+        <div>
+        Sex?
+        </div>
+      </div>
+    </div>
+  </ion-content>
+</ion-view>
