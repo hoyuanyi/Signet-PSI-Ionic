@@ -42,7 +42,7 @@ angular.module('JustAProject')
 
   $scope.refreshData = function() {
     $scope.showBackdrop();
-    $httpService.getPSI('http://www.nea.gov.sg/api/WebAPI?dataset=psi_update&keyref=781CF461BB6606ADC4A6A6217F5F2AD6623E25A537B5DE8B').then(function (data) {
+    $httpService.getPSI('fill in your psi api').then(function (data) {
 
       $scope.psiReading.reading = $dataService.get3HReading(data);
       $scope.psiReading.quality = $dataService.get3HRating(data)[0];
@@ -69,7 +69,7 @@ angular.module('JustAProject')
 
 .controller('DashCtrl', function($scope, $httpService, $ionicLoading, $timeout, $dataService) {
 
-  $httpService.getPSI('http://www.nea.gov.sg/api/WebAPI?dataset=psi_update&keyref=781CF461BB6606ADC4A6A6217F5F2AD6623E25A537B5DE8B').then(function (data) {
+  $httpService.getPSI('fill in your psi api').then(function (data) {
 
     $scope.psiReading.reading = $dataService.get3HReading(data);
     $scope.psiReading.quality = $dataService.get3HRating(data)[0];
